@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pizza Planet</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="index.html">
+            <img src="images/pizza_planet_logo.png" alt="pizza planet logo">
+            </a>
+        </div>
+        <div id="navBar">
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="reserve">
+            <h3>Request a Reservation Here</h3>
+            <form>
+                <br>
+                <label for="email">Enter an email address you can be contacted at: </label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="phone">Enter a phone number you can be contacted at: </label>
+                <input type="number" id="phone" name="phone">
+                <br><br>
+                <label for="date">When would you like to set the reservation?</label>
+                <input type="date" id="date" name="date">
+                <br><br>
+                <label for="mainText">What is the reservation for.</label>
+                <textarea name="mainText" style="width:100%;" cols="40" rows="5"></textarea>
+                <br><br>
+                    <label for="partySize">How many are in your party?</label>
+
+                    <select name="partySize" id="partySize">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                <br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
